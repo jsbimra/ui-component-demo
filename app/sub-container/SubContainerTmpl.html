@@ -1,0 +1,33 @@
+<!-- Sub Container -->
+<div id="wrapper" class="wrapper1" >
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="sidebar-nav" id="sidebar-wrapper">
+                <ul id="menu" class="mLeftm40">
+                    <li class="active">
+                        <a ui-sref=".form">{{'sideBar.option1' | translate}}</a>
+                    </li>
+                    <li>
+                        <a ui-sref=".datatable" ui-sref-opts="{reload: true}">{{'sideBar.option2' | translate}}</a>
+                    </li>
+                    <li>
+                        <a ui-sref=".error">{{'sideBar.option3' | translate}}</a>
+                    </li>
+                    <li>
+                        <a ui-sref=".loader">{{'sideBar.option4' | translate}}</a>
+                    </li>
+                    <li>
+                        <a ui-sref=".massUpload">{{'sideBar.option5' | translate}}</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+            <!--Content Area-->
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div ui-view="content"></div>
+            </div>
+        </div>
+    </div>
+</div>

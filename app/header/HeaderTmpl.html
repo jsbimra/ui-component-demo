@@ -1,0 +1,118 @@
+<!-- Fixed navbar -->
+<nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+            <a class="navbar-brand" href=""><img src="/assets/images/AGoneLogo90x30.png" /></a>
+        </div>
+        <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+        <div id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="app-name">
+                    <span>
+                        <a href="" class="app-name">{{'application-name' | translate}}</a>
+                    </span>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <span>
+                        <a href="" class="welcome">{{'greeting-text' | translate}}</a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a href=""><img src="/assets/images/newAGlogo159x70.png" /></a>
+                    </span>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+    <!--Top Navigation Menu -->
+    <div class="container-fluid top-app-nav">
+        <div class="row">
+            <ul class="nav navbar-nav"><!--href="#menu-toggle"-->
+                <li class="menu-icon">
+                    <a id="menu-toggle"><img src="/assets/images/menu24.png" /></a>
+                </li>
+                <li class="active">
+                    <a href="">{{'navigation.option1' | translate}}</a>
+                </li>
+                <li>
+                    <a href="">{{'navigation.option2' | translate}}</a>
+                </li>
+                <li>
+                    <a href="">{{'navigation.option3' | translate}}</a>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{'navigation.option4' | translate}}<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="">{{'navigation-sub.option1' | translate}}</a>
+                        </li>
+                        <li>
+                            <a href="">{{'navigation-sub.option2' | translate}}</a>
+                        </li>
+                        <li>
+                            <a href="">{{'navigation-sub.option3' | translate}}</a>
+                        </li>
+                        <!--<li role="separator" class="divider"></li>-->
+                        <li>
+                            <a href="">{{'navigation-sub.option4' | translate}}</a>
+                        </li>
+                        <!--<li role="separator" class="divider"></li>-->
+                        <li>
+                            <a href="">{{'navigation-sub.option5' | translate}}</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--Mega Menu-->
+                <li class="dropdown mega-dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{'navigation.option5' | translate}}<span class="caret"></span></a> 
+                    <ul class="dropdown-menu mega-dropdown-menu row">    
+                        <li class="col-sm-6">
+                            <ul>
+                                <li class="dropdown-header">{{'nav-double-menu.menu-title' | translate}}</li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option1' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option2' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option3' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option4' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option5' | translate}}</a>
+                                </li>
+                            </ul>
+                        </li>    
+                        <li class="col-sm-6">
+                            <ul>
+                                <li class="dropdown-header">{{'nav-double-menu.menu-title' | translate}}</li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option1' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option2' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option3' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option4' | translate}}</a>
+                                </li>
+                                <li>
+                                    <a href="">{{'nav-double-menu.option5' | translate}}</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> <!-- /Fixed navbar -->

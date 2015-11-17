@@ -1,0 +1,95 @@
+<!-- Data Table Container -->
+<div class="content-container-custom">
+    <!-- Data Table Container Title -->
+	<div class="content-container-title">{{'table-label' | translate}}</div>
+	<div class="table-container" ng-controller="TableController as viewModel" st-table="items">
+        <!-- Data Table Search Form-->
+        <div>
+            <uib-accordion close-others="oneAtATime">
+                <uib-accordion-group is-open="status.open" class="content-container-custom">
+                    <form class="form-group">
+                        <uib-accordion-heading> 
+                            <span class="searchStyle">{{'search' | translate}}</span>
+                            <i class="pull-right glyphicon" ng-class="{'arrow-up': status.open, 'arrow-down': !status.open}"></i>
+                        </uib-accordion-heading>
+                        <div col-lg-3>
+                            <label for="search1" class="labels">{{'table-search1' | translate}}</label> 
+                            <input id="search1" placeholder="{{'table-placeholder1' | translate}}" type="search" class="input-sm searchFields boxes">
+                        
+                            <label for="search2" class="labels">{{'table-search2' | translate}}</label> 
+                            <input id="search2" placeholder="{{'table-placeholder2' | translate}}" type="search" class="input-sm searchFields boxes">
+                        
+                            <label for="search3" class="labels">{{'table-search3' | translate}}</label>
+                            <input id="search3" placeholder="{{'table-placeholder3' | translate}}" type="search" class="input-sm searchFields boxes">
+                        </div>
+                        <div col-lg-3>
+                            <label for="search4" class="labels">{{'table-search4' | translate}}</label>
+                            <input id="search4" placeholder="{{'table-placeholder4' | translate}}" type="search" class="input-sm searchFields boxes">
+                      
+                            <label for="search5" class="labels">{{'table-search5' | translate}}</label>
+                            <input id="search5" placeholder="{{'table-placeholder5' | translate}}" type="search" class="input-sm searchFields boxes">
+                        
+                            <label for="search6" class="labels">{{'table-search6' | translate}}</label>
+                            <input id="search6" placeholder="{{'table-placeholder6' | translate}}" type="search" class="input-sm searchFields boxes">   
+                        </div>
+                        <input class="pull-right searchSubmit" type="submit" value="{{'go-label' | translate}}">
+                    </form>
+                </uib-accordion-group>
+            </uib-accordion>
+		</div>
+        <!-- Data Table Content -->
+		<div class="content-container-custom">
+			<table st-table="items" class="table-ag table">
+				<thead>
+					<tr class="table-header-row">
+						<th class="select" row-select-all="items" selected="viewModel.selected" ng-click="viewModel.selectAll(items)"></th>
+                        
+						<th st-sort="{{'table-field1' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field1' | translate}}</th>
+                        
+						<th st-sort="{{'table-field2' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field2' | translate}}</th>
+                        
+						<th st-sort="{{'table-field3' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field3' | translate}}</th>
+                        
+						<th st-sort="{{'table-field4' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field4' | translate}}</th>
+                        
+						<th st-sort="{{'table-field5' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field5' | translate}}</th>
+                        
+						<th st-sort="{{'table-field6' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field6' | translate}}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="row in items">
+						<td class="select" row-select="row" ng-click="viewModel.select(row.itemId)"></td>
+						<td>{{row.itemId}}</td>
+						<td>{{row.name}}</td>
+						<td>{{row.description}}</td>
+						<td>{{row.dept}}</td>
+						<td>{{row.category}}</td>
+						<td>{{row.country}}</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+                            <p>{{'selected-rows' | translate}} : {{viewModel.selected.length}}</p>
+                        </td>
+						<td colspan="4"></td>
+					</tr>
+				</tbody>
+				<tfoot>
+                    <tr class="text-left table-footer">
+				        <td colspan="5">
+							<div st-items-by-page="itemsByPage" st-pagination="" st-template="app/data-table/pagination_custom.html" st-displayed-pages="">
+                            </div>
+						</td>
+						<td colspan="2">
+                            <label for="display" class="label-ag">{{'display-labeldata1' | translate}} 
+                                <select ng-model="itemsByPage" id="display"  class="display-page" >
+                                    <option ng-repeat="data in displayOptions" value="{{data.option}}">{{data.option}}</option>
+                                </select>{{'display-labeldata2' | translate}}
+						  </label>
+                        </td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</div>

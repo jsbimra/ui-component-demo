@@ -1,0 +1,125 @@
+@CHARSET "ISO-8859-1";
+
+.st-sort-ascent:after{
+    content: url("../../assets/images/sortArrowsUpAscend.png");
+}
+.st-sort-descent:after{
+    content: url("../../assets/images/sortArrowsDownDescend.png");
+}
+.st-sort-default:after{
+    content: url("../../assets/images/sortArrows.png");
+}
+.select-page {
+  width: 50px;
+  text-align: center;
+}
+.st-summary{
+   margin-right:200px;
+}
+.label-ag, .table-header-row, table tr:nth-child(odd), table tr:nth-child(even), .paginationAG, legend{
+    font-family: Arial;
+}
+.label-ag, .table-header-row, table tr:nth-child(odd), table tr:nth-child(even), .paginationAG{
+    font-size: 12px;
+}
+.panel-heading, .searchStyle, .legend{
+    font-size: 14px;
+}
+.label-ag, .legend {
+color:#808080; 
+}
+.display-inline{
+    display: inline;
+}
+.table-footer{
+    padding:25px;
+}
+.table-header-row, .panel-heading, .legend,.searchStyle{
+    font-weight: bold;
+}
+.table-ag{
+    padding: 2px;
+}
+.table-header-row{  
+    background-image: url("../../assets/images/tableHeaderBG52.png");
+	background-size: contain;
+    background-repeat: repeat-x;
+}
+.table-header-row,table tr:nth-child(odd),table tr:nth-child(even){
+	cellpadding: 2px;
+}
+.table-ag{
+	border:1px; 
+	background-color: #deeaf5;
+}
+table tr:nth-child(odd) {
+ 	background-color: #eaf1f6 ;
+}
+table tr:nth-child(even) {
+	background-color: #ffffff;
+}
+.table-container{
+	background-color: #dfebf4;
+}
+.table-header-row, table tr:nth-child(even), table tr:nth-child(odd),{
+	color: #404040;  
+}
+.panel-heading {
+    border-color: #ddd;
+	padding: 10px;
+	background-color: #ccdeef !important;
+	box-sizing: border-box;
+}
+.panel-heading,.searchStyle{
+    color: #2e6790;
+}
+
+.fieldset{
+    min-width: 0;
+    padding: .35em .625em .75em;
+    margin: 2px 2px;
+    border: 1px solid #c0c0c0;
+}
+.legend {
+    width: initial;
+}
+.table-container{
+    margin: 15px;
+}
+.table-container, .display-page, .panel-heading{
+    border-radius: 5px;   
+}
+.select{
+    width:80px;
+    text-align: center;
+}
+.pagination-right-arrow{
+    content: url("../../assets/images/paginationRightArrow.png");
+}
+.pagination-left-arrow{
+    content: url("../../assets/images/paginationLeftArrow.png");
+}
+.vertical-align-middle{
+    vertical-align: middle;
+}
+.searchSubmit{
+    border-radius: 4px;   
+}
+.searchStyle{
+    text-decoration: none;
+}
+.arrow-up,.arrow-down{
+     margin : 0px;
+}
+.arrow-up{
+    content: url("../../assets/images/arrow492.png");
+}
+.arrow-down{
+    content: url("../../assets/images/arrow486.png");
+}
+.searchFields{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 60px;
+}

@@ -1,0 +1,130 @@
+<div class="container-fluid" ng-controller="TableController as tblCtrl" st-table="items">
+    <div class="row">
+    <!-- /.row -->
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <!-- /.panel -->
+                <div class="panel-heading">{{'table-container-title' | translate}}</div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <uib-accordion close-others="oneAtATime">
+                                        <uib-accordion-group is-open="status.open" class="content-panel">
+                                            <uib-accordion-heading>
+                                                <a class="txt-underline-none">{{'search' | translate}}</a>
+                                                <i class="pull-right fa fa-2x caretColor txt-underline-none" style="margin-top:-8px;" ng-class="{'fa-caret-up': status.open, 'fa-caret-down': !status.open}"></i>
+                                            </uib-accordion-heading>
+                                            <div class="container-fluid">
+                                                <div class="row pBottom10">
+                                                    <div class="col-xs-1">
+                                                        <label for="search1" class="inpLabel">{{'table-search1' | translate}}</label>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <input id="search1" placeholder="{{'table-placeholder1' | translate}}" type="search" class="form-control">
+                                                    </div>
+                                                    <div class="col-xs-1">
+                                                        <label for="search2" class="inpLabel">{{'table-search2' | translate}}</label>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <input id="search2" placeholder="{{'table-placeholder2' | translate}}" type="search" class="form-control">
+                                                    </div>
+                                                    <div class="col-xs-1">
+                                                        <label for="search3" class="inpLabel">{{'table-search3' | translate}}</label>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <input id="search3" placeholder="{{'table-placeholder3' | translate}}" type="search" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row pBottom10">
+                                                    <div class="col-xs-1">
+                                                        <label for="search4" class="inpLabel">{{'table-search4' | translate}}</label>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <input id="search4" placeholder="{{'table-placeholder4' | translate}}" type="search" class="form-control">
+                                                    </div>
+                                                    <div class="col-xs-1">
+                                                        <label for="search5" class="inpLabel">{{'table-search5' | translate}}</label>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <input id="search5" placeholder="{{'table-placeholder5' | translate}}" type="search" class="form-control">
+                                                    </div>
+                                                    <div class="col-xs-1">
+                                                        <label for="search6" class="inpLabel">{{'table-search6' | translate}}</label>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <input id="search6" placeholder="{{'table-placeholder6' | translate}}" type="search" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <button class="pull-right btn-bg-default gradient">{{'go-label' | translate}}</button>
+                                                </div>
+                                            </div>
+                                        </uib-accordion-group>
+                                    </uib-accordion>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="container-fluid"  st-table="items" st-safe-src="rowCollectionsItems">
+                        <div class="row">
+                        <!-- /.row -->
+                            <div class="col-xs-12">
+                                <div class="panel panel-default table-container">
+                                    <!-- /.panel -->
+                                    <div class="panel-heading">
+                                        <!--Table Name-->
+                                        <span class="table-header">{{'table-label' | translate}}</span>
+                                    </div>
+                                    <!-- /.panel-heading -->
+                                    <div class="panel-body pTop0">
+                                        <div class="row">
+                                            <table class="table table-bordered table-striped">
+                                                <thead class="gradient tbl-header">
+                                                    <tr>
+                                                        <th st-sort="{{'table-field1' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field1' | translate}}</th>
+                                                        <th st-sort="{{'table-field2' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field2' | translate}}</th>
+                                                        <th st-sort="{{'table-field3' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field3' | translate}}</th>
+                                                        <th st-sort="{{'table-field4' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field4' | translate}}</th>
+                                                        <th st-sort="{{'table-field5' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field5' | translate}}</th>
+                                                        <th st-sort="{{'table-field6' | translate}}" st-class-ascent="st-sort-ascent" st-class-descent="st-sort-descent" class="st-sort-default">{{'table-field6' | translate}}</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr ng-repeat="row in items">
+                                                        <td>{{row.itemId}}</td>
+                                                        <td>{{row.name}}</td>
+                                                        <td>{{row.description}}</td>
+                                                        <td>{{row.dept}}</td>
+                                                        <td>{{row.category}}</td>
+                                                        <td>{{row.country}}</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- /.row -->
+                                    </div>
+                                    <!-- /.panel-body -->
+                                    <div class="panel-footer">
+                                        <div class="container-fluid">
+                                            <div class="row text-center normal-text">
+                                                <div id="dataTablePager" st-items-by-page="tblCtrl.itemsByPage" st-pagination="" st-template="app/data-table/pagination_custom.html" st-displayed-pages="itemsByPage">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-xs-12 -->
+    </div>
+    <!-- /.row -->
+</div>

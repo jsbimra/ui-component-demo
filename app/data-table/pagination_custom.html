@@ -1,0 +1,16 @@
+<!-- Custom Pagination Template -->
+<nav ng-controller="TablePagerController as tblPagerCtrl">
+    <ul>
+        <st-summary>
+            <span>{{'st-summary-data1' | translate}} {{ stRange.from }} {{'st-summary-data2' | translate}} {{ stRange.to }} {{'st-summary-data3' | translate}} {{ totalItemCount }} {{'st-summary-data4' | translate}}</span>
+        </st-summary>
+		<a ng-click="selectPage(currentPage-1)"><img src="/assets/images/paginationLeftArrow.png"/></a>
+        <span>{{'pagination-data1' | translate}} {{currentPage}} {{'pagination-data2' | translate}} {{numPages}}</span>
+		<a ng-click="selectPage(currentPage+1)"><img src="/assets/images/paginationRightArrow.png"/></a>
+        <label for="display" class="text-normal">{{'display-labeldata1' | translate}} 
+            <select ng-model="tblPagerCtrl.displaySelection" id="display"  class="display-page" ng-change="tblPagerCtrl.updateDropdown()" ng-options="item.option as item.option for item in tblPagerCtrl.displayOptions">
+            </select>{{'display-labeldata2' | translate}}
+        </label>
+        <!--<label class="text-normal pLeft10">{{'go-to-label' | translate}}</label><span><input type="text" class="wd35" /></span> <span class="pLeft10"><button disabled class="btn-bg-disabled gradient mTop8">{{'go-label' | translate}}</button></span>-->
+	</ul>
+</nav>

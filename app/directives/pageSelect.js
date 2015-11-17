@@ -1,0 +1,16 @@
+(function() {
+    'use strict';
+
+    /* Directive to Select Page */
+    angular.module('uiFrameworkComponent').directive('pageSelect', function() {
+        return {
+            restrict : 'E',
+            template : '<input type="text" class="select-page" ng-model="inputPage" ng-change="selectPage(inputPage)">',
+            link : function(scope, element, attrs) {
+                scope.$watch('currentPage', function(c) {
+                    scope.inputPage = c;
+                });
+            }
+        };
+    });
+})();

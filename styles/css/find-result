@@ -1,0 +1,795 @@
+Searching 9772 files
+for "SidebarController"
+
+D: \wamp\ www\ UIComponentDemo\ app\ toggle - menu\ SidebarViewModel.js:
+    2 'use strict';
+3
+4: /* SidebarController - Controller for the Sidebar */
+    5: angular.module('uiFrameworkComponent').controller('SidebarController', function($scope) {
+            6
+            7 /* Initial state of the Sidebar */
+
+            D: \wamp\ www\ UIComponentDemo\ dist\ built.js:
+                860 'use strict';
+            861
+            862: /* SidebarController - Controller for the Sidebar */
+                863: angular.module('uiFrameworkComponent').controller('SidebarController', function($scope) {
+                        864
+                        865 /* Initial state of the Sidebar */
+
+                        Unable to open / D / wamp / www / UIComponentDemo / node_modules / grunt - concurrent / node_modules / pad - stream / node_modules / meow / node_modules / normalize - package - data / node_modules / validate - npm - package - license / node_modules / spdx - expression - parse / node_modules / spdx - license - ids / spdx - license - ids.json
+                        Unable to open / D / wamp / www / UIComponentDemo / node_modules / grunt - contrib - uglify / node_modules / maxmin / node_modules / pretty - bytes / node_modules / meow / node_modules / read - pkg - up / node_modules / read - pkg / node_modules / load - json - file / node_modules / pinkie - promise / node_modules / pinkie / package.json
+                        Unable to open / D / wamp / www / UIComponentDemo / node_modules / karma / node_modules / chokidar / node_modules / anymatch / node_modules / micromatch / node_modules / braces / node_modules / expand - range / node_modules / fill - range / node_modules / randomatic / node_modules / is - number / node_modules / kind - of / index.js
+                        Unable to open / D / wamp / www / UIComponentDemo / node_modules / karma / node_modules / chokidar / node_modules / anymatch / node_modules / micromatch / node_modules / braces / node_modules / expand - range / node_modules / fill - range / node_modules / randomatic / node_modules / is - number / node_modules / kind - of / package.json
+                        Unable to open / D / wamp / www / UIComponentDemo / node_modules / karma / node_modules / chokidar / node_modules / anymatch / node_modules / micromatch / node_modules / braces / node_modules / expand - range / node_modules / fill - range / node_modules / randomatic / node_modules / is - number / node_modules / kind - of / README.md
+                        D: \wamp\ www\ UIComponentDemo\ test\ unit\ toggle - menuSpec\ toggle - menuSpec.js:
+                            3 beforeEach(module('uiFrameworkComponent'));
+                        4
+                        5: var SidebarController, scope;
+                        6
+                        7 beforeEach(inject(function($rootScope, $controller) {
+                                        .
+                                        9 scope = $rootScope.$new();
+                                        10
+                                        11: SidebarController = $controller('SidebarController', {
+                                            12 '$scope': scope
+                                            13
+                                        });
+
+                                        7 matches across 3 files
+
+
+                                        Searching 9773 files
+                                        for "/assets/"
+
+                                        D: \wamp\ www\ UIComponentDemo\ app\ form - components\ form_fields.html:
+                                            32
+                                        33 < /div>
+                                        34: < span class = "pLeft30" > < a href = ""
+                                        class = ""
+                                        tooltip - placement = "bottom"
+                                        uib - tooltip = "{{'tooltip' | translate}}"
+                                        tooltip - class = "tooltip-style"
+                                        tooltip - trigger = "click"
+                                        tooltip - append - to - body = "true" > < img src = "/assets/images/info28.png"
+                                        alt = "Some tooltip text!" / > < /a></span >
+                                            35
+                                        36
+                                            ..
+                                        169 < div class = "alert alert-danger" >
+                                            170 <!--<a class="close" data-dismiss="alert">×</a>-->
+                                        171: < span > < img src = "/assets/images/alert-24.png" / > < /span> <strong>{{'input-error-msg' | translate}}</strong >
+                                            172 < /div>
+                                        173 < /div>
+                                            ...
+                                        200 < div class = "modal-content" >
+                                            201 < div class = "modal-header" >
+                                            202: < button type = "button"
+                                        class = "close"
+                                        data - dismiss = "modal"
+                                        aria - label = "Close" > < span aria - hidden = "true" > < img src = "/assets/images/close6.png" / > < /span></button >
+                                            203 < h4 class = "modal-title text-bold"
+                                        id = "myModalLabel" > {
+                                            {
+                                                'loader-title' | translate
+                                            }
+                                        } < /h4>
+                                        204 < /div>
+                                        205 < div class = "modal-body minheight100 text-center" >
+                                            206: < img src = "/assets/images/niceAnimatedTriangles.gif"
+                                        height = "36"
+                                        width = "36" / > < strong > {
+                                            {
+                                                'loader-data' | translate
+                                            }
+                                        } < /strong>
+                                        207 < /div>
+                                        208 <!--<div class="modal-footer">
+
+                                        D: \wamp\ www\ UIComponentDemo\ app\ header\ HeaderTmpl.html:
+                                            4 < div class = "navbar-header" >
+                                            5 <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+                                        6: < a class = "navbar-brand"
+                                        href = "" > < img src = "/assets/images/AGoneLogo90x30.png" / > < /a>
+                                        7 < /div>
+                                        8 <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+                                            .
+                                        13 < ul class = "nav navbar-nav navbar-right" >
+                                            14 < li > < span > < a href = ""
+                                        class = "welcome" > {
+                                            {
+                                                'greeting-text' | translate
+                                            }
+                                        } < /a></span > < /li>
+                                        15: < li > < span > < a href = "" > < img src = "/assets/images/newAGlogo159x70.png" / > < /a></span > < /li>
+                                        16 < /ul>
+                                        17 < /div><!--/.nav - collapse -->
+                                            ..
+                                        21 < div class = "row" >
+                                            22 < ul class = "nav navbar-nav" > <!--href="#menu-toggle"-->
+                                            23: < li class = "menu-icon" > < a id = "menu-toggle" > < img src = "/assets/images/menu24.png" / > < /a> </li >
+                                            24 < li class = "active" > < a href = "" > {
+                                                {
+                                                    'navigation.option1' | translate
+                                                }
+                                            } < /a></li >
+                                            25 < li > < a href = "" > {
+                                                {
+                                                    'navigation.option2' | translate
+                                                }
+                                            } < /a></li >
+
+                                            D: \wamp\ www\ UIComponentDemo\ app\ loader\ loaderTmpl.html:
+                                            10 < div class = "modal-content" >
+                                            11 < div class = "modal-header" >
+                                            12: < button type = "button"
+                                        class = "close"
+                                        data - dismiss = "modal"
+                                        aria - label = "Close" > < span aria - hidden = "true" > < img src = "/assets/images/close6.png" / > < /span></button >
+                                            13 <!--<h4 class="modal-title text-bold" id="myModalLabel">Title</h4>-->
+                                        14 < /div>
+                                        15 < div class = "modal-body minheight100 text-center" >
+                                            16: < img src = "/assets/images/niceAnimatedTriangles.gif"
+                                        height = "36"
+                                        width = "36" / > < strong > {
+                                            {
+                                                'loader-data' | translate
+                                            }
+                                        } < /strong>
+                                        17 < /div>
+                                        18 <!--<div class="modal-footer">
+
+                                        D: \wamp\ www\ UIComponentDemo\ app\ mass - upload\ mass - upload.html:
+                                            94 < div class = "modal-content" >
+                                            95 < div class = "modal-header" >
+                                            96: < button type = "button"
+                                        class = "close"
+                                        data - dismiss = "modal"
+                                        aria - label = "Close" > < span aria - hidden = "true" > < img src = "/assets/images/close6.png" / > < /span></button >
+                                            97 < h4 class = "modal-title text-bold"
+                                        id = "myModalLabel" > {
+                                            {
+                                                'modal-title' | translate
+                                            }
+                                        } < /h4>
+                                        98 < /div>
+                                        99 < div class = "modal-body minheight100 text-center" >
+                                            100: < img src = "/assets/images/alert-24.png" / > {
+                                                {
+                                                    'modal-alert' | translate
+                                                }
+                                            }
+                                        101 < /div>
+                                        102 < div class = "modal-footer" >
+
+                                            Unable to open / D / wamp / www / UIComponentDemo / node_modules / grunt - concurrent / node_modules / pad - stream / node_modules / meow / node_modules / normalize - package - data / node_modules / validate - npm - package - license / node_modules / spdx - expression - parse / node_modules / spdx - license - ids / spdx - license - ids.json
+                                        D: \wamp\ www\ UIComponentDemo\ node_modules\ grunt - contrib - connect\ node_modules\ connect\ node_modules\ debug\ Readme.md:
+                                            120 Colored output looks something like:
+                                            121
+                                        122: ![](https: //cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+                                                123 124### stderr vs stdout
+
+                                                D: \wamp\ www\ UIComponentDemo\ node_modules\ grunt - contrib - connect\ node_modules\ morgan\ node_modules\ debug\ Readme.md:
+                                                120 Colored output looks something like:
+                                                121 122: ![](https: //cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+                                                    123 124### stderr vs stdout
+
+                                                    D: \wamp\ www\ UIComponentDemo\ node_modules\ grunt - contrib - connect\ node_modules\ serve - index\ node_modules\ debug\ Readme.md:
+                                                    120 Colored output looks something like:
+                                                    121 122: ![](https: //cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+                                                        123 124### stderr vs stdout
+
+                                                        D: \wamp\ www\ UIComponentDemo\ node_modules\ grunt - contrib - connect\ node_modules\ serve - static\ node_modules\ send\ node_modules\ debug\ Readme.md:
+                                                        120 Colored output looks something like:
+                                                        121 122: ![](https: //cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+                                                            123 124### stderr vs stdout
+
+                                                            Unable to open / D / wamp / www / UIComponentDemo / node_modules / grunt - contrib - uglify / node_modules / maxmin / node_modules / pretty - bytes / node_modules / meow / node_modules / read - pkg - up / node_modules / read - pkg / node_modules / load - json - file / node_modules / pinkie - promise / node_modules / pinkie / package.json D: \wamp\ www\ UIComponentDemo\ node_modules\ grunt - processhtml\ README.md:
+                                                            313 Default value: `null` (Will use the path of the including file) 314 315: Specify an optional path to look
+                                                            for include files.ie, `app/assets/includes/`
+                                                            316 317#### options.commentMarker
+
+                                                            D: \wamp\ www\ UIComponentDemo\ node_modules\ grunt - replace\ README.md:
+                                                            446#### Cache busting 447 448: File `src/assets/index.html`:
+                                                            449 450 ``
+                                                            `html
+  ...
+  469      },
+  470      files: [
+  471:       {src: ['src/assets/index.html'], dest: 'build/index.html'}
+  472      ]
+  473    }
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\bluebird\README.md:
+    1  <a href="http://promisesaplus.com/">
+    2:     <img src="http://promisesaplus.com/assets/logo-small.png" alt="Promises/A+ logo"
+    3           title="Promises/A+ 1.1 compliant" align="right" />
+    4  </a>
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\body-parser\node_modules\debug\Readme.md:
+  120    Colored output looks something like:
+  121  
+  122:   ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+  123  
+  124  ### stderr vs stdout
+
+Unable to open /D/wamp/www/UIComponentDemo/node_modules/karma/node_modules/chokidar/node_modules/anymatch/node_modules/micromatch/node_modules/braces/node_modules/expand-range/node_modules/fill-range/node_modules/randomatic/node_modules/is-number/node_modules/kind-of/index.js
+Unable to open /D/wamp/www/UIComponentDemo/node_modules/karma/node_modules/chokidar/node_modules/anymatch/node_modules/micromatch/node_modules/braces/node_modules/expand-range/node_modules/fill-range/node_modules/randomatic/node_modules/is-number/node_modules/kind-of/package.json
+Unable to open /D/wamp/www/UIComponentDemo/node_modules/karma/node_modules/chokidar/node_modules/anymatch/node_modules/micromatch/node_modules/braces/node_modules/expand-range/node_modules/fill-range/node_modules/randomatic/node_modules/is-number/node_modules/kind-of/README.md
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\chokidar\node_modules\anymatch\node_modules\micromatch\node_modules\extglob\node_modules\ansi-green\node_modules\ansi-wrap\README.md:
+   28  Which prints out...
+   29  
+   30: [![screen shot 2015-05-21 at 8 28 32 pm](https://cloud.githubusercontent.com/assets/383994/7761769/12488afa-fff8-11e4-9cc1-71a8a6ec14a4.png)](https://www.npmjs.com/)
+   31  
+   32  ## Related projects
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\connect\node_modules\debug\Readme.md:
+  120    Colored output looks something like:
+  121  
+  122:   ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+  123  
+  124  ### stderr vs stdout
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\debug\Readme.md:
+   98    Colored output looks something like:
+   99  
+  100:   ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+  101  
+  102  ### stderr vs stdout
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\engine.io\node_modules\debug\Readme.md:
+   95    Colored output looks something like:
+   96  
+   97:   ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+   98  
+   99  ### stderr vs stdout
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\debug\Readme.md:
+   95    Colored output looks something like:
+   96  
+   97:   ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+   98  
+   99  ### stderr vs stdout
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\lib\json3.js.html:
+  141          }
+  142          div.coverage-summary .yui3-datatable-sort-indicator {
+  143:             background: url("http://yui.yahooapis.com/3.6.0/build/datatable-sort/assets/skins/sam/sort-arrow-sprite.png") no-repeat scroll 0 0 transparent;
+  144          }
+  145          div.coverage-summary .yui3-datatable-sorted .yui3-datatable-sort-indicator {
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\debug\package.json:
+   38      }
+   39    },
+   40:   "readme": "# debug\n\n  tiny node.js debugging utility modelled after node core's debugging technique.\n\n## Installation\n\n`
+                                                            ``
+                                                            bash\ n$ npm install debug\ n ``
+                                                            `\n\n## Usage\n\n With `
+                                                            debug ` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `
+                                                            console.error `, so all of the `
+                                                            console ` format string goodies you're used to work fine. A unique color is selected per-function for visibility.\n\nExample _app.js_:\n\n`
+                                                            ``
+                                                            js\ nvar debug = require('debug')('http')\ n, http = require('http')\ n, name = 'My App';\ n\ n // fake app\n\ndebug('booting %s', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + ' ' + req.url);\n  res.end('hello\\n');\n}).listen(3000, function(){\n  debug('listening');\n});\n\n// fake worker of some kind\n\nrequire('./worker');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require('debug')('worker');\n\nsetInterval(function(){\n  debug('doing some work');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the \"+NNNms\" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stdout is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n\n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n\n## Conventions\n\n If you're using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use \":\" to separate features. For example \"bodyParser\" from Connect would then be \"connect:bodyParser\".\n\n## Wildcards\n\n  The `*` character may be used as a wildcard. Suppose for example your library has debuggers named \"connect:bodyParser\", \"connect:compress\", \"connect:session\", instead of listing all three with `DEBUG=connect:bodyParser,connect.compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a \"-\" character.  For example, `DEBUG=*,-connect:*` would include all debuggers except those starting with \"connect:\".\n\n## Browser support\n\n  Debug works in the browser as well, currently persisted by `localStorage`. For example if you have `worker:a` and `worker:b` as shown below, and wish to debug both type `debug.enable('worker:*')` in the console and refresh the page, this will remain until you disable with `debug.disable()`.\n\n```js\na = debug('worker:a');\nb = debug('worker:b');\n\nsetInterval(function(){\n  a('doing some work');\n}, 1000);\n\nsetInterval(function(){\n  b('doing some work');\n}, 1200);\n```\n\n#### Web Inspector Colors\n\n  Colors are also enabled on \"Web Inspectors\" that understand the `%c` formatting\n  option. These are WebKit web inspectors, Firefox ([since version\n  31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\n  and the Firebug plugin for Firefox (any version).\n\n  Colored output looks something like:\n\n  ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)\n\n### stderr vs stdout\n\nYou can set an alternative logging method per-namespace by overriding the `log` method on a per-namespace or globally:\n\nExample _stderr.js_:\n\n```js\nvar debug = require('../');\nvar log = debug('app:log');\n\n// by default console.log is used\nlog('goes to stdout!');\n\nvar error = debug('app:error');\n// set this namespace to log via console.error\nerror.log = console.error.bind(console); // don't forget to bind to console!\nerror('goes to stderr');\nlog('still goes to stdout!');\n\n// set all output to go via console.warn\n// overrides all per-namespace log settings\ndebug.log = console.warn.bind(console);\nlog('now goes to stderr via console.warn');\nerror('still goes to stderr, but via console.warn now');\n```\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+                                                            41 "readmeFilename": "Readme.md",
+                                                            42 "bugs": {
+
+                                                                D: \wamp\ www\ UIComponentDemo\ node_modules\ karma\ node_modules\ socket.io\ node_modules\ socket.io - client\ node_modules\ engine.io - client\ node_modules\ debug\ Readme.md: 98 Colored output looks something like: 99
+                                                                100: ![](https: //cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)
+                                                                    101 102### stderr vs stdout
+
+                                                                    D: \wamp\ www\ UIComponentDemo\ node_modules\ karma\ node_modules\ socket.io\ node_modules\ socket.io - parser\ node_modules\ json3\ coverage\ lcov - report\ lib\ json3.js.html:
+                                                                    141
+                                                                }
+                                                                142 div.coverage - summary.yui3 - datatable - sort - indicator {
+                                                                    143: background: url("http://yui.yahooapis.com/3.6.0/build/datatable-sort/assets/skins/sam/sort-arrow-sprite.png") no - repeat scroll 0 0 transparent;
+                                                                    144
+                                                                }
+                                                                145 div.coverage - summary.yui3 - datatable - sorted.yui3 - datatable - sort - indicator {
+
+                                                                    D: \wamp\ www\ UIComponentDemo\ styles\ css\ bootstrap.css: 1089 color: #404040; /*# 333 * /
+                                                                    1090 /*background-color: #fff;*/
+                                                                    1091: background: url('/assets/images/subtle_white_feathers.png');
+                                                                    1092 min - width: 1260 px!important;
+                                                                    1093
+                                                                }
+
+                                                                D: \wamp\ www\ UIComponentDemo\ styles\ css\ custom.css: 7 body {
+                                                                        8 /*background-color: #f8f8f8;*/
+                                                                        9: background: url('/assets/images/subtle_white_feathers.png');
+                                                                        10 min - width: 1260 px!important
+                                                                        11
+                                                                    }
+                                                                    ..
+                                                                45
+                                                            }
+                                                            46.nav - bg {
+                                                                47: background: url('/assets/images/headerBG.png');
+                                                                48
+                                                            }
+                                                            49 50 51.navbar - custom {
+                                                                52: background: url('/assets/images/headerBG.png') repeat - x; /*background-color:#229922;*/
+                                                                53 color: #ffffff;
+                                                                54 border - radius: 0;
+                                                                ..
+                                                                499 /* Dynamic Sorting */
+                                                                500.st - sort - ascent: after {
+                                                                    501: content: url("/assets/images/sortArrowsUpAscend.png") !important;
+                                                                    502 padding - top: 10 px;
+                                                                    503 cursor: pointer;
+                                                                    504
+                                                                }
+                                                                505.st - sort - descent: after {
+                                                                    506: content: url("/assets/images/sortArrowsDownDescend.png") !important;
+                                                                    507 cursor: pointer;
+                                                                    508
+                                                                }
+                                                                509.st - sort - default: after {
+                                                                        510: content: url("/assets/images/sortArrows.png");
+                                                                        511 cursor: pointer;
+                                                                        512
+                                                                    }
+                                                                    ...
+                                                                514 /* Pagination Arrows */
+                                                                515.pagination - right - arrow {
+                                                                    516: content: url("/assets/images/paginationRightArrow.png");
+                                                                    517 cursor: pointer;
+                                                                    518
+                                                                }
+                                                                519.pagination - left - arrow {
+                                                                    520: content: url("/assets/images/paginationLeftArrow.png");
+                                                                    521 cursor: pointer;
+                                                                    522
+                                                                }
+
+                                                                D: \wamp\ www\ UIComponentDemo\ styles\ css\ form.css: 58
+                                                            }
+                                                            59.button - normal {
+                                                                60: background - image: url("/assets/images/buttonBGnormal.png");
+                                                                61
+                                                            }
+                                                            62.button -
+                                                            default {
+                                                                63: background - image: url("/assets/images/buttonBGdefault.png");
+                                                                64
+                                                            }
+                                                            65.button - hover {
+                                                                66: background - image: url("/assets/images/buttonBGhover.png");
+                                                                67
+                                                            }
+                                                            68.button - disabled {
+                                                                69: background - image: url("/assets/images/buttonBGdisabled.png");
+                                                                70
+                                                            }
+                                                            71.grid - padding {
+                                                                ..
+                                                                85
+                                                            }
+                                                            86.info {
+                                                                87: content: url("/assets/images/info28.png");
+                                                                88 position: relative;
+                                                                89 top: -30 px;
+
+                                                                D: \wamp\ www\ UIComponentDemo\ styles\ css\ stylesheet - ag.css: 2
+                                                                3 body {
+                                                                    4: background - image: url("/assets/images/subtle_white_feathers.png");
+                                                                    5 font - family: Arial;
+                                                                    6
+                                                                }
+                                                                .
+                                                                16
+                                                            }
+                                                            17.header {
+                                                                18: background - image: url("/assets/images/headerBG.png");
+                                                                19
+                                                            }
+                                                            20.headline {
+                                                                ..
+                                                                26 height: 30 px;
+                                                                27 margin: 10 px;
+                                                                28: content: url("/assets/images/AGoneLogo.png");
+                                                                29
+                                                            }
+                                                            30.application - name {
+                                                                ..
+                                                                40 width: 159 px;
+                                                                41 height: 50 px;
+                                                                42: content: url("/assets/images/ag_logo.png");
+                                                                43
+                                                            }
+                                                            44.menu - icon - expanded {
+                                                                ..
+                                                                49 top: 32 px;
+                                                                50 left: -32 px;
+                                                                51: content: url("/assets/images/menu51.png");
+                                                                52
+                                                            }
+                                                            53.landing - page - left - navigation {
+                                                                ..
+                                                                64
+                                                            }
+                                                            65.pagetitle {
+                                                                66: background - image: url("/assets/images/blue_grad_bg.png");
+                                                                67 height: 30 px;
+                                                                68
+                                                            }
+
+                                                            D: \wamp\ www\ UIComponentDemo\ styles\ css\ table - layout.css:
+                                                            2 3.st - sort - ascent: after {
+                                                                4: content: url("/assets/images/sortArrowsUpAscend.png");
+                                                                5
+                                                            }
+                                                            6.st - sort - descent: after {
+                                                                7: content: url("/assets/images/sortArrowsDownDescend.png");
+                                                                8
+                                                            }
+                                                            9.st - sort -
+                                                            default: after {
+                                                                10: content: url("/assets/images/sortArrows.png");
+                                                                11
+                                                            }
+                                                            12.select - page {
+                                                                ..
+                                                                42
+                                                            }
+                                                            43.table - header - row {
+                                                                44: background - image: url("/assets/images/tableHeaderBG52.png");
+                                                                45 background - size: contain;
+                                                                46 background - repeat: repeat - x;
+                                                                ..
+                                                                95
+                                                            }
+                                                            96.pagination - right - arrow {
+                                                                97: content: url("/assets/images/paginationRightArrow.png");
+                                                                98
+                                                            }
+                                                            99.pagination - left - arrow {
+                                                                100: content: url("/assets/images/paginationLeftArrow.png");
+                                                                101
+                                                            }
+                                                            102.vertical - align - middle {
+                                                                ...
+                                                                113
+                                                            }
+                                                            114.arrow - up {
+                                                                115: content: url("/assets/images/arrow492.png");
+                                                                116
+                                                            }
+                                                            117.arrow - down {
+                                                                118: content: url("/assets/images/arrow486.png");
+                                                                119
+                                                            }
+                                                            120.searchFields {
+
+                                                                57 matches across 26 files
+
+
+                                                                Searching 22 files
+                                                                for "/assets/"
+
+                                                                D: \wamp\ www\ UIComponentDemo\ styles\ css\ bootstrap.css:
+                                                                    1089 color: #404040; /*# 333 * /
+                                                                1090 /*background-color: #fff;*/
+                                                                1091: background: url('/assets/images/subtle_white_feathers.png');
+                                                                1092 min - width: 1260 px!important;
+                                                                1093
+                                                            }
+
+                                                            D: \wamp\ www\ UIComponentDemo\ styles\ css\ custom.css:
+                                                            7 body {
+                                                                8 /*background-color: #f8f8f8;*/
+                                                                9: background: url('/assets/images/subtle_white_feathers.png');
+                                                                10 min - width: 1260 px!important
+                                                                11
+                                                            }
+                                                            ..45
+                                                        }
+                                                        46.nav - bg {
+                                                            47: background: url('/assets/images/headerBG.png');
+                                                            48
+                                                        }
+                                                        49 50 51.navbar - custom {
+                                                            52: background: url('/assets/images/headerBG.png') repeat - x; /*background-color:#229922;*/
+                                                            53 color: #ffffff;
+                                                            54 border - radius: 0;
+                                                            ..
+                                                            499 /* Dynamic Sorting */
+                                                            500.st - sort - ascent: after {
+                                                                501: content: url("/assets/images/sortArrowsUpAscend.png") !important;
+                                                                502 padding - top: 10 px;
+                                                                503 cursor: pointer;
+                                                                504
+                                                            }
+                                                            505.st - sort - descent: after {
+                                                                506: content: url("/assets/images/sortArrowsDownDescend.png") !important;
+                                                                507 cursor: pointer;
+                                                                508
+                                                            }
+                                                            509.st - sort - default: after {
+                                                                    510: content: url("/assets/images/sortArrows.png");
+                                                                    511 cursor: pointer;
+                                                                    512
+                                                                }
+                                                                ...
+                                                            514 /* Pagination Arrows */
+                                                            515.pagination - right - arrow {
+                                                                516: content: url("/assets/images/paginationRightArrow.png");
+                                                                517 cursor: pointer;
+                                                                518
+                                                            }
+                                                            519.pagination - left - arrow {
+                                                                520: content: url("/assets/images/paginationLeftArrow.png");
+                                                                521 cursor: pointer;
+                                                                522
+                                                            }
+
+                                                            D: \wamp\ www\ UIComponentDemo\ styles\ css\ form.css: 58
+                                                        }
+                                                        59.button - normal {
+                                                            60: background - image: url("/assets/images/buttonBGnormal.png");
+                                                            61
+                                                        }
+                                                        62.button -
+                                                        default {
+                                                            63: background - image: url("/assets/images/buttonBGdefault.png");
+                                                            64
+                                                        }
+                                                        65.button - hover {
+                                                            66: background - image: url("/assets/images/buttonBGhover.png");
+                                                            67
+                                                        }
+                                                        68.button - disabled {
+                                                            69: background - image: url("/assets/images/buttonBGdisabled.png");
+                                                            70
+                                                        }
+                                                        71.grid - padding {
+                                                            ..
+                                                            85
+                                                        }
+                                                        86.info {
+                                                            87: content: url("/assets/images/info28.png");
+                                                            88 position: relative;
+                                                            89 top: -30 px;
+
+                                                            D: \wamp\ www\ UIComponentDemo\ styles\ css\ stylesheet - ag.css: 2
+                                                            3 body {
+                                                                4: background - image: url("/assets/images/subtle_white_feathers.png");
+                                                                5 font - family: Arial;
+                                                                6
+                                                            }
+                                                            .
+                                                            16
+                                                        }
+                                                        17.header {
+                                                            18: background - image: url("/assets/images/headerBG.png");
+                                                            19
+                                                        }
+                                                        20.headline {
+                                                            ..
+                                                            26 height: 30 px;
+                                                            27 margin: 10 px;
+                                                            28: content: url("/assets/images/AGoneLogo.png");
+                                                            29
+                                                        }
+                                                        30.application - name {
+                                                            ..
+                                                            40 width: 159 px;
+                                                            41 height: 50 px;
+                                                            42: content: url("/assets/images/ag_logo.png");
+                                                            43
+                                                        }
+                                                        44.menu - icon - expanded {
+                                                            ..
+                                                            49 top: 32 px;
+                                                            50 left: -32 px;
+                                                            51: content: url("/assets/images/menu51.png");
+                                                            52
+                                                        }
+                                                        53.landing - page - left - navigation {
+                                                            ..
+                                                            64
+                                                        }
+                                                        65.pagetitle {
+                                                            66: background - image: url("/assets/images/blue_grad_bg.png");
+                                                            67 height: 30 px;
+                                                            68
+                                                        }
+
+                                                        D: \wamp\ www\ UIComponentDemo\ styles\ css\ table - layout.css:
+                                                        2 3.st - sort - ascent: after {
+                                                            4: content: url("/assets/images/sortArrowsUpAscend.png");
+                                                            5
+                                                        }
+                                                        6.st - sort - descent: after {
+                                                            7: content: url("/assets/images/sortArrowsDownDescend.png");
+                                                            8
+                                                        }
+                                                        9.st - sort -
+                                                        default: after {
+                                                            10: content: url("/assets/images/sortArrows.png");
+                                                            11
+                                                        }
+                                                        12.select - page {
+                                                            ..
+                                                            42
+                                                        }
+                                                        43.table - header - row {
+                                                            44: background - image: url("/assets/images/tableHeaderBG52.png");
+                                                            45 background - size: contain;
+                                                            46 background - repeat: repeat - x;
+                                                            ..
+                                                            95
+                                                        }
+                                                        96.pagination - right - arrow {
+                                                            97: content: url("/assets/images/paginationRightArrow.png");
+                                                            98
+                                                        }
+                                                        99.pagination - left - arrow {
+                                                            100: content: url("/assets/images/paginationLeftArrow.png");
+                                                            101
+                                                        }
+                                                        102.vertical - align - middle {
+                                                            ...
+                                                            113
+                                                        }
+                                                        114.arrow - up {
+                                                            115: content: url("/assets/images/arrow492.png");
+                                                            116
+                                                        }
+                                                        117.arrow - down {
+                                                            118: content: url("/assets/images/arrow486.png");
+                                                            119
+                                                        }
+                                                        120.searchFields {
+
+                                                            28 matches across 5 files
+
+
+Searching 22 files for "/assets/"
+
+D:\wamp\www\UIComponentDemo\styles\css\bootstrap.css:
+ 1089    color: #404040; /*#333*/
+ 1090    /*background-color: #fff;*/
+ 1091:   background:url('../../assets/images/subtle_white_feathers.png');
+ 1092    min-width:1260px !important;
+ 1093  }
+
+D:\wamp\www\UIComponentDemo\styles\css\custom.css:
+    7  body {
+    8      /*background-color: #f8f8f8;*/
+    9:     background:url('../../assets/images/subtle_white_feathers.png');
+   10      min-width:1260px !important
+   11  }
+   ..
+   45  }
+   46  .nav-bg {
+   47:     background:url('../../assets/images/headerBG.png');
+   48  }
+   49  
+   50  
+   51  .navbar-custom {
+   52: 	background:url('../../assets/images/headerBG.png') repeat-x; /*background-color:#229922;*/
+   53      color:#ffffff;
+   54    	border-radius:0;
+   ..
+  499  /* Dynamic Sorting */
+  500  .st-sort-ascent:after{
+  501:     content: url("../../assets/images/sortArrowsUpAscend.png") !important;
+  502      padding-top: 10px;
+  503      cursor: pointer;
+  504  }
+  505  .st-sort-descent:after{
+  506:     content: url("../../assets/images/sortArrowsDownDescend.png") !important;
+  507      cursor: pointer;
+  508  }
+  509  .st-sort-default:after{
+  510:     content: url("../../assets/images/sortArrows.png");
+  511      cursor: pointer;
+  512  }
+  ...
+  514  /* Pagination Arrows */
+  515  .pagination-right-arrow{
+  516:     content: url("../../assets/images/paginationRightArrow.png");
+  517      cursor: pointer;
+  518  }
+  519  .pagination-left-arrow{
+  520:     content: url("../../assets/images/paginationLeftArrow.png");
+  521      cursor: pointer;
+  522  }
+
+D:\wamp\www\UIComponentDemo\styles\css\form.css:
+   58  }
+   59  .button-normal {
+   60: 	background-image: url("../../assets/images/buttonBGnormal.png");
+   61  }
+   62  .button-default {
+   63: 	background-image: url("../../assets/images/buttonBGdefault.png");
+   64  }
+   65  .button-hover {
+   66: 	background-image: url("../../assets/images/buttonBGhover.png");
+   67  }
+   68  .button-disabled {
+   69: 	background-image: url("../../assets/images/buttonBGdisabled.png");
+   70  }
+   71  .grid-padding {
+   ..
+   85  }
+   86  .info {
+   87:     content: url("../../assets/images/info28.png");
+   88  	position: relative;
+   89      top: -30px;
+
+D:\wamp\www\UIComponentDemo\styles\css\stylesheet-ag.css:
+    2  
+    3  body {
+    4:     background-image: url("../../assets/images/subtle_white_feathers.png");
+    5      font-family: Arial;
+    6  }
+    .
+   16  }
+   17  .header {
+   18: 	background-image: url("../../assets/images/headerBG.png");
+   19  }
+   20  .headline {
+   ..
+   26  	height: 30px;
+   27  	margin: 10px;
+   28:     content: url("../../assets/images/AGoneLogo.png");
+   29  }
+   30  .application-name {
+   ..
+   40  	width: 159px;
+   41  	height: 50px;
+   42:     content: url("../../assets/images/ag_logo.png");
+   43  }
+   44  .menu-icon-expanded {
+   ..
+   49      top: 32px;
+   50      left: -32px;
+   51:     content: url("../../assets/images/menu51.png");
+   52  }
+   53  .landing-page-left-navigation {
+   ..
+   64  }
+   65  .pagetitle {
+   66: 	background-image: url("../../assets/images/blue_grad_bg.png");
+   67  	height: 30px;
+   68  }
+
+D:\wamp\www\UIComponentDemo\styles\css\table-layout.css:
+    2  
+    3  .st-sort-ascent:after{
+    4:     content: url("../../assets/images/sortArrowsUpAscend.png");
+    5  }
+    6  .st-sort-descent:after{
+    7:     content: url("../../assets/images/sortArrowsDownDescend.png");
+    8  }
+    9  .st-sort-default:after{
+   10:     content: url("../../assets/images/sortArrows.png");
+   11  }
+   12  .select-page {
+   ..
+   42  }
+   43  .table-header-row{  
+   44:     background-image: url("../../assets/images/tableHeaderBG52.png");
+   45  	background-size: contain;
+   46      background-repeat: repeat-x;
+   ..
+   95  }
+   96  .pagination-right-arrow{
+   97:     content: url("../../assets/images/paginationRightArrow.png");
+   98  }
+   99  .pagination-left-arrow{
+  100:     content: url("../../assets/images/paginationLeftArrow.png");
+  101  }
+  102  .vertical-align-middle{
+  ...
+  113  }
+  114  .arrow-up{
+  115:     content: url("../../assets/images/arrow492.png");
+  116  }
+  117  .arrow-down{
+  118:     content: url("../../assets/images/arrow486.png");
+  119  }
+  120  .searchFields{
+
+28 matches across 5 files

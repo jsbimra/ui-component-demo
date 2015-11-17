@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="row">
+        <button class="btn-bg-normal gradient" data-toggle="modal" data-target="#loader">{{'loader-label' | translate}}</button>
+    </div>
+</div>
+<!-- Modal for Loader -->
+<div class="modal fade" id="loader" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <img src="/assets/images/close6.png" />
+                    </span>
+                </button>
+                <!--<h4 class="modal-title text-bold" id="myModalLabel">Title</h4>-->
+            </div>
+            <div class="modal-body minheight100 text-center">
+                <img src="/assets/images/niceAnimatedTriangles.gif" height="36" width="36" />
+                <strong>{{'loader-data' | translate}}</strong>
+            </div>
+            <!--<div class="modal-footer">
+                <div class="text-center">
+                    <button class="btn-bg-default gradient mRight15" data-dismiss="modal">Yes</button>
+                    <button class="btn-bg-normal gradient" data-dismiss="modal">No</button>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</div>

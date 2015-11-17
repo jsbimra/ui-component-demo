@@ -1,0 +1,103 @@
+<div class="container-fluid">
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-xs-12">
+            <!-- /.panel -->
+            <div class="panel panel-default">
+                <div class="panel-heading">{{'mass-upload-title' | translate}}</div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="container-fluid">
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <!-- /.panel -->
+                                    <div class="panel panel-default content-panel">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">{{'upload-order-title' | translate}}</h4>
+                                        </div>
+                                        <!-- /.panel-heading -->
+                                        <div class="panel-body">
+                                            <div class="container-fluid">
+                                                <div class="row pBottom10">
+                                                    <div class="col-xs-12">
+                                                        <div class="form-group">
+                                                            <!--<label for="exampleInputFile">File input</label>-->
+                                                            <input type="file" id="exampleInputFile">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row pBottom10">
+                                                    <div class="col-xs-4">
+                                                        <label class="inpLabel">{{'order-reason-title' | translate}}</label>                                                <sup><i class="fa fa-asterisk red"></i></sup>
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <select class="form-control wd170pximp">
+                                                            <option>{{'mass-upload-option1' | translate}}</option>
+                                                            <option>{{'mass-upload-option2' | translate}}</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>                                                            
+                                        </div>
+                                        <div class="panel-footer text-center">
+                                            <button class="btn-bg-normal gradient" data-toggle="modal" data-target="#myModal">{{'mass-upload-submit' | translate}}</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.col-xs-6 -->
+                                <div class="col-xs-6">
+                                    <!-- /.panel -->
+                                <div class="panel panel-default content-panel">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">{{'mass-upload-template-title' | translate}}</h4>
+                                    </div>
+                                    <!-- /.panel-heading -->
+                                    <div class="panel-body">
+                                        <div class="col-xs-12">
+                                            <span class="dft-text">{{'mass-upload-template-content' | translate}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="panel-footer text-center">
+                                        <button class="btn-bg-normal gradient" type="submit">{{'mass-upload-download' | translate}}</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </div> <!-- /.container-fluid -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-xs-12 -->
+    </div>
+    <!-- /.row -->
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <img src="/assets/images/close6.png" />
+                    </span>
+                </button>
+                <h4 class="modal-title text-bold" id="myModalLabel">{{'modal-title' | translate}}</h4>
+            </div>
+            <div class="modal-body minheight100 text-center">
+                <img src="/assets/images/alert-24.png" />{{'modal-alert' | translate}}
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class="btn-bg-default gradient mRight15" data-dismiss="modal">{{'modal-yes' | translate}}</button>
+                    <button class="btn-bg-normal gradient" data-dismiss="modal">{{'modal-no' | translate}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

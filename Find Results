@@ -1,0 +1,81 @@
+Searching 48 files for "/assets/"
+
+D:\wamp\www\UIComponentDemo\app\form-components\form_fields.html:
+   32                                  
+   33                              </div>
+   34:                             <span class="pLeft30"> <a href="" class="" tooltip-placement="bottom" uib-tooltip="{{'tooltip' | translate}}" tooltip-class="tooltip-style" tooltip-trigger="click" tooltip-append-to-body="true"><img src="/assets/images/info28.png" alt="Some tooltip text!" /></a></span>
+   35  
+   36  
+   ..
+  169                                  <div class="alert alert-danger">
+  170                                      <!--<a class="close" data-dismiss="alert">×</a>-->
+  171:                                     <span><img src="/assets/images/alert-24.png" /></span> <strong>{{'input-error-msg' | translate}}</strong>
+  172                                  </div>
+  173                              </div>
+  ...
+  200                                          <div class="modal-content">
+  201                                              <div class="modal-header">
+  202:                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/assets/images/close6.png" /></span></button>
+  203                                                  <h4 class="modal-title text-bold" id="myModalLabel">{{'loader-title' | translate}}</h4>
+  204                                              </div>
+  205                                              <div class="modal-body minheight100 text-center">
+  206:                                                 <img src="/assets/images/niceAnimatedTriangles.gif" height="36" width="36" /> <strong>{{'loader-data' | translate}}</strong>
+  207                                              </div>
+  208                                              <!--<div class="modal-footer">
+
+D:\wamp\www\UIComponentDemo\app\header\HeaderTmpl.html:
+    4          <div class="navbar-header">
+    5              <!-- The mobile navbar-toggle button can be safely removed since you do not need it in a non-responsive implementation -->
+    6:             <a class="navbar-brand" href=""><img src="/assets/images/AGoneLogo90x30.png" /></a>
+    7          </div>
+    8          <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
+    .
+   13              <ul class="nav navbar-nav navbar-right">
+   14                  <li><span><a href="" class="welcome">{{'greeting-text' | translate}}</a></span></li>
+   15:                 <li><span><a href=""><img src="/assets/images/newAGlogo159x70.png" /></a></span></li>
+   16              </ul>
+   17          </div><!--/.nav-collapse -->
+   ..
+   21          <div class="row">
+   22              <ul class="nav navbar-nav"><!--href="#menu-toggle"-->
+   23:                 <li class="menu-icon"><a id="menu-toggle"><img src="/assets/images/menu24.png" /></a> </li>
+   24                  <li class="active"><a href="">{{'navigation.option1' | translate}}</a></li>
+   25                  <li><a href="">{{'navigation.option2' | translate}}</a></li>
+
+D:\wamp\www\UIComponentDemo\app\loader\loaderTmpl.html:
+   10                                          <div class="modal-content">
+   11                                              <div class="modal-header">
+   12:                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/assets/images/close6.png" /></span></button>
+   13                                                  <!--<h4 class="modal-title text-bold" id="myModalLabel">Title</h4>-->
+   14                                              </div>
+   15                                              <div class="modal-body minheight100 text-center">
+   16:                                                 <img src="/assets/images/niceAnimatedTriangles.gif" height="36" width="36" /> <strong>{{'loader-data' | translate}}</strong>
+   17                                              </div>
+   18                                              <!--<div class="modal-footer">
+
+D:\wamp\www\UIComponentDemo\app\mass-upload\mass-upload.html:
+   94              <div class="modal-content">
+   95                  <div class="modal-header">
+   96:                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/assets/images/close6.png" /></span></button>
+   97                      <h4 class="modal-title text-bold" id="myModalLabel">{{'modal-title' | translate}}</h4>
+   98                  </div>
+   99                  <div class="modal-body minheight100 text-center">
+  100:                     <img src="/assets/images/alert-24.png" />{{'modal-alert' | translate}}
+  101                  </div>
+  102                  <div class="modal-footer">
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\lib\json3.js.html:
+  141          }
+  142          div.coverage-summary .yui3-datatable-sort-indicator {
+  143:             background: url("http://yui.yahooapis.com/3.6.0/build/datatable-sort/assets/skins/sam/sort-arrow-sprite.png") no-repeat scroll 0 0 transparent;
+  144          }
+  145          div.coverage-summary .yui3-datatable-sorted .yui3-datatable-sort-indicator {
+
+D:\wamp\www\UIComponentDemo\node_modules\karma\node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\lib\json3.js.html:
+  141          }
+  142          div.coverage-summary .yui3-datatable-sort-indicator {
+  143:             background: url("http://yui.yahooapis.com/3.6.0/build/datatable-sort/assets/skins/sam/sort-arrow-sprite.png") no-repeat scroll 0 0 transparent;
+  144          }
+  145          div.coverage-summary .yui3-datatable-sorted .yui3-datatable-sort-indicator {
+
+13 matches across 6 files
